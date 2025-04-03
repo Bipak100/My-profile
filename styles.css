@@ -1,0 +1,96 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+    background: linear-gradient(to right, #4bc38d, #2e8b57);
+}
+
+/* Profile Card */
+.profile-card {
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #4CAF50;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Info Section */
+.info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Download Resume Button */
+.download-btn {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #388E3C;
+}
+/* Email Button */
+.email-btn {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.email-btn:hover {
+    background: #0056b3;
+}
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
