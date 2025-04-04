@@ -8,13 +8,6 @@ function showDownloadMessage() {
     } else {
         alert("Download completed. Bipak will be happy to hear from you.");
     }
-/*  if (response) {
-    alert("Download completed. Bipak will be happy to hear from you.");
-} else {
-    alert("Error downloading");
-}
-*/
-   // alert("Download completed");
 }
 
 // Add event listener to the button
