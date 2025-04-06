@@ -33,6 +33,8 @@
     border-radius: 50%;
     border: 4px solid #4CAF50;
     margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;  /* Smooth zoom effect */
+    cursor: pointer;
 }
 
 /* Title */
@@ -56,7 +58,7 @@ h1 {
 /* Info Section */
 .info p {
     font-size: 14px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 /* Download Resume Button */
@@ -72,7 +74,7 @@ h1 {
 }
 
 .download-btn:hover {
-    background: #388E3C;
+    background: #044507;
 }
 /* Email Button */
 .email-btn {
@@ -87,13 +89,15 @@ h1 {
 }
 
 .email-btn:hover {
-    background: #0056b3;
+    background: #072c54;
 }
 /* Fade-in Animation */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
+    to { opacity: 1; transform: translateY(0); }    
+    
 }
+
 .profile-pic:hover {
     transform: scale(1.05);  /* 5% larger */
 }
